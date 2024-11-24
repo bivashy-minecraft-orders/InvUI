@@ -45,6 +45,10 @@
             <id>codemc-maven-public</id>
             <url>https://repo.codemc.org/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>jitpack</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -52,6 +56,11 @@
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>24.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.technicallycoded</groupId>
+            <artifactId>FoliaLib</artifactId>
+            <version>main-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -70,18 +79,6 @@
         <module>inventoryaccess/inventory-access-r5</module>
         <module>inventoryaccess/inventory-access-r6</module>
         <module>inventoryaccess/inventory-access-r7</module>
-        <module>inventoryaccess/inventory-access-r8</module>
-        <module>inventoryaccess/inventory-access-r9</module>
-        <module>inventoryaccess/inventory-access-r10</module>
-        <module>inventoryaccess/inventory-access-r11</module>
-        <module>inventoryaccess/inventory-access-r12</module>
-        <module>inventoryaccess/inventory-access-r13</module>
-        <module>inventoryaccess/inventory-access-r14</module>
-        <module>inventoryaccess/inventory-access-r15</module>
-        <module>inventoryaccess/inventory-access-r16</module>
-        <module>inventoryaccess/inventory-access-r17</module>
-        <module>inventoryaccess/inventory-access-r18</module>
-        <module>inventoryaccess/inventory-access-r19</module>
         <module>inventoryaccess/inventory-access-r20</module>
         <module>inventoryaccess/inventory-access-r21</module>
         <module>invui-core</module>
